@@ -14,9 +14,9 @@ const App = () => {
       <CoreValues />
       <MiddleCallToAction />
       <ValueProposition />
-      {/* <Testimonials />
+      <Testimonials />
       <SubFooter />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 };

@@ -27,7 +27,7 @@ const ValueProposition = () => {
   return (
     <section className="w-full bg-[#fff]">
       <div
-        className={`${container} w-full flex flex-col-reverse lg:flex-row lg:py-16 py-6 gap-10 md:gap-2`}
+        className={`${container} w-full flex flex-col-reverse lg:flex-row lg:py-20 py-10 gap-10 md:gap-2`}
       >
         <div className="flex-1 flex flex-col lg:flex-row justify-center items-start gap-4 lg:gap-8">
           <div className="flex-1 lg:h-full flex flex-col justify-center items-center lg:gap-6 gap-4 lg:pr-10">
