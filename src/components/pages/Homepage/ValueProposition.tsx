@@ -1,6 +1,5 @@
 import { container } from "@/constants/tailwind_customizations";
 import React from "react";
-import { Check } from "lucide-react";
 
 const valueProposition = [
   {
@@ -40,7 +39,7 @@ const ValueProposition = () => {
             </h2>
             <p className="lg:text-lg md:text-base text-sm font-light">
               In this part, we will write a sub-headline briefly describing your
-              company's unique value proposition.
+              company&apos;s unique value proposition.
             </p>
           </div>
 

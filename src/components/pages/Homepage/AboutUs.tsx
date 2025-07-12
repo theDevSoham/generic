@@ -11,7 +11,7 @@ const AboutUs = () => {
         </h2>
         <p className="lg:text-base md:text-sm text-sm text-light">
           This part will introduce you or your business to website visitors.
-          We'll write about you, your organization, the products or services you
+          We&apos;ll write about you, your organization, the products or services you
           offer, and why your company exists.
         </p>
         <Button type="primary" label="Call to Action" />
