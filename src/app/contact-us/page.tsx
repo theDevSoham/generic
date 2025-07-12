@@ -1,18 +1,18 @@
-import Header from "@/components/pages/Offerings/Header";
+import Header from "@/components/pages/ContactUs/Header";
 import SubFooter from "@/components/ui/SubFooter";
 import React from "react";
 import Footer from "@/components/ui/Footer";
-import Testimonials from "@/components/pages/Offerings/Testimonials"
+import Contacts from "@/components/pages/ContactUs/Contacts";
 
-const Offerings = () => {
+const ContactUs = () => {
   return (
     <main className="w-full">
       <Header />
-	  <Testimonials />
+      <Contacts />
       <SubFooter />
       <Footer />
     </main>
   );
 };
 
-export default Offerings;
+export default ContactUs;

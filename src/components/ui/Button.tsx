@@ -26,9 +26,14 @@ type WithPredefined = {
 
 type ButtonAction = WithClick | WithPredefined;
 
+type ButtonType = {
+  buttonType?: "button" | "reset" | "submit";
+};
+
 type IButtonProps =
   | (IButtonBase &
-      ButtonAction & { type: "primary" | "default" | "buttonLink" })
+      ButtonAction &
+      ButtonType & { type: "primary" | "default" | "buttonLink" })
   | (IButtonBase &
       WithPredefined & { type: "link" | "linkButton"; link: string })
   | (IButtonBase &
@@ -49,6 +54,7 @@ const Button: React.FC<IButtonProps> = (props) => {
     case "primary":
       return (
         <button
+          type={props.buttonType}
           onClick={handleClick}
           className="lg:px-6 lg:py-3 px-4 py-2 rounded-md bg-[#F15808] text-white font-semibold hover:animate-[fade-out-button_0.3s_ease-in-out_forwards] cursor-pointer"
         >

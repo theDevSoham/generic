@@ -10,7 +10,7 @@ const navLinks = [
   { id: 1, name: "Home", link: "/" },
   { id: 2, name: "About", link: "/about-us" },
   { id: 3, name: "Offerings", link: "/offerings" },
-  { id: 4, name: "Contact", link: "/" },
+  { id: 4, name: "Contact", link: "/contact-us" },
 ];
 
 interface INavBar {
