@@ -1,16 +1,14 @@
-import Header from "@/components/pages/AboutUs/Header";
+import Header from "@/components/pages/Offerings/Header";
 import SubFooter from "@/components/ui/SubFooter";
 import React from "react";
 import Footer from "@/components/ui/Footer";
-import Introduction from "@/components/pages/AboutUs/Introduction";
-import Approaches from "@/components/pages/AboutUs/Approaches";
+import Testimonials from "@/components/pages/Offerings/Testimonials"
 
 const AboutUs = () => {
   return (
     <main className="w-full">
       <Header />
-      <Introduction />
-      <Approaches />
+	  <Testimonials />
       <SubFooter />
       <Footer />
     </main>
