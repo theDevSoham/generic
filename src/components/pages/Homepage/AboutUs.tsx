@@ -12,15 +12,9 @@ const AboutUs = () => {
           Elevating Portfolios Through Property and Precision
         </h2> */}
         <p className="lg:text-base md:text-sm text-sm text-light">
-          Niath Advisory is a trusted advisory firm providing integrated real
-          estate and financial solutions to corporates and investors. We
-          specialize in commercial leasing, outright property transactions, and
-          strategic investment planning, combining deep market insight with a
-          client-first approach. Our services are designed to align real estate
-          strategies with business goals while offering high-performing
-          investment opportunities in real estate and mutual funds. With a focus
-          on integrity, transparency, and sustainable growth, we are committed
-          to delivering long-term value and building lasting partnership.
+          This part will introduce you or your business to website visitors.
+          We'll write about you, your organization, the products or services you
+          offer, and why your company exists.
         </p>
         <Button type="linkButton" link="/about-us" label="Know more about us" />
       </div>

@@ -1,5 +1,6 @@
 import { container } from "@/constants/tailwind_customizations";
 import React from "react";
+import { Check } from "lucide-react";
 
 const valueProposition = [
   {
@@ -50,9 +51,9 @@ const ValueProposition = () => {
               </h2>
               {/* <p className="lg:text-lg md:text-base text-sm font-light">
               In this part, we will write a sub-headline briefly describing your
-              company&apos;s unique value proposition.
-            </p> */}
-            </div>
+              company's unique value proposition.
+            </p>
+          </div>
 
             <ul className="flex-1 flex flex-col">
               {valueProposition.map((item, index, arr) => (
