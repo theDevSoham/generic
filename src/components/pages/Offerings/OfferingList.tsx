@@ -32,7 +32,7 @@ const OfferingList = () => {
           >
             <div className="flex-1 lg:h-full">
               <div className="h-full lg:p-16 px-6 flex flex-col justify-center items-start lg:gap-4 gap-2">
-                <p className="uppercase lg:text-base text-sm text-[#2ab6d0]">
+                <p className="uppercase lg:text-base text-sm text-[#0084d4]">
                   {offering.index}
                 </p>
                 <h2 className="lg:text-4xl md:text-2xl text-xl font-medium text-black">

@@ -33,7 +33,7 @@ const Footer = () => {
     <footer className="w-full min-h-[100px] flex lg:flex-row flex-col-reverse lg:justify-between px-0 lg:px-10 py-4 lg:py-0 gap-2 lg:gap-0 justify-center items-center bg-[#fff]">
       <div className="">
         <small
-          className={`${lexendDeca.className} text-sm font-normal text-[#2ab6d0]`}
+          className={`${lexendDeca.className} text-sm font-normal text-[#0084d4]`}
         >
           Copyright © <time dateTime="2025">2025</time> Niath Advisory
         </small>

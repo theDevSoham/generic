@@ -5,6 +5,7 @@ import React from "react";
 const Contacts = () => {
   return (
     <section
+      id="contact"
       className={`${container} w-full bg-transparent flex flex-col lg:flex-row lg:py-20 py-10 relative lg:gap-0 gap-10 min-h-[600px]`}
     >
       <div className="flex-1 flex flex-col lg:gap-6 gap-4 ">
@@ -32,7 +33,7 @@ const Contacts = () => {
       </div>
       <div className="flex-1 flex justify-center items-center">
         <div className="lg:absolute lg:-top-30 lg:right-30 xl:-right-20 lg:z-6 xl:w-1/2 lg:w-2/5 bg-white w-full lg:p-10 p-6 flex flex-col lg:gap-10 gap-6 justify-start items-start">
-          <p className="uppercase lg:text-base text-sm text-[#2ab6d0]">
+          <p className="uppercase lg:text-base text-sm text-[#0084d4]">
             Prefix for the Contact Form section will be here
           </p>
 

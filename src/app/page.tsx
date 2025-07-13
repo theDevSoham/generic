@@ -1,6 +1,6 @@
 import Header from "@/components/pages/Homepage/Header";
 import SubFooter from "@/components/ui/SubFooter";
-import Testimonials from "@/components/pages/Homepage/Testimonials";
+import WhyWorkWithUs from "@/components/pages/Homepage/WhyWorkWithUs";
 import ValueProposition from "@/components/pages/Homepage/ValueProposition";
 import React from "react";
 import Footer from "@/components/ui/Footer";
@@ -12,9 +12,9 @@ const App = () => {
     <main className="w-full">
       <Header />
       <CoreValues />
-      <MiddleCallToAction />
+      {/* <MiddleCallToAction /> */}
       <ValueProposition />
-      <Testimonials />
+      <WhyWorkWithUs />
       <SubFooter />
       <Footer />
     </main>

@@ -7,7 +7,7 @@ const Introduction = () => {
       className={`${container} w-full bg-transparent flex flex-col lg:flex-row justify-center items-center lg:py-28 py-10 lg:gap-10 gap-6`}
     >
       <div className="flex-1 flex flex-col justify-center items-center lg:gap-6 gap-4">
-        <p className="uppercase lg:text-base text-sm text-[#2ab6d0]">
+        <p className="uppercase lg:text-base text-sm text-[#0084d4]">
           Prefix for the About Section will be written here
         </p>
         <h2 className="font-medium lg:text-4xl md:text-2xl text-lg">

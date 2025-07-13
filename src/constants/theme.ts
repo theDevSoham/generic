@@ -6,7 +6,7 @@ const theme = {
   background: "#fef1e4",
   alternateBackground: "#f1f5f9",
   defaultText: "#000",
-  accentText: "#2ab6d0",
+  accentText: "#0084d4",
   accentBackground: "#abb8c3",
 };
 

@@ -28,7 +28,7 @@ const Header = () => {
             Headline for the About Page Will Be Here
           </h1>
           {/* <h2
-            className={`font-normal lg:text-xl md:text-[1rem] text-[0.8rem] text-[#2ab6d0]`}
+            className={`font-normal lg:text-xl md:text-[1rem] text-[0.8rem] text-[#0084d4]`}
           >
             We will write a persuasive introduction for you or your company.
             This can be about your products, offerings, or simply why you exist.

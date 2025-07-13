@@ -22,7 +22,7 @@ const Approaches = () => {
       <div
         className={`${container} flex flex-col justify-center items-start lg:gap-10 gap-6`}
       >
-        <p className="uppercase lg:text-base text-sm text-[#2ab6d0]">
+        <p className="uppercase lg:text-base text-sm text-[#0084d4]">
           Prefix for the Company Approach section will be written here
         </p>
 
